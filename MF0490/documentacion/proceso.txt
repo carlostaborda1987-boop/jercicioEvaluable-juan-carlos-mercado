@@ -1,0 +1,44 @@
+# PROCESO DE TRABAJO CON GIT - ACTIVIDAD EVALUABLE
+
+## 1. Creación y obtención del repositorio
+- Se creó un repositorio vacío en GitHub llamado "jercicioEvaluable-juan-carlos-mercado"
+- Se clonó el repositorio en local usando el comando:
+  git clone https://github.com/carlostaborda1987-boop/jercicioEvaluable-juan-carlos-mercado.git
+- Esto creó una carpeta local con el repositorio
+
+## 2. Rama de trabajo
+- Se trabajó directamente en la rama principal 'main'
+- No fue necesario crear ramas adicionales para esta práctica
+- Se verificó la rama actual con: git branch
+
+## 3. Creación de archivos
+- Se creó la estructura de carpetas con: mkdir -p MF0490/documentacion
+- Se crearon los archivos:
+  * README.md en la raíz
+  * comandos.txt en MF0490/documentacion/
+  * proceso.txt en MF0490/documentacion/
+- Para crear los archivos se usó: touch nombre_archivo
+- Para editar el contenido se usó el editor nano: nano nombre_archivo
+- Se añadió contenido al README.md con echo y también con nano
+
+## 4. Guardado de cambios (Commits)
+- Se prepararon los cambios con: git add .
+- Se crearon commits con mensajes descriptivos:
+  * "Añadida estructura de carpetas y archivos"
+  * "Añadida estructura completa con documentación"
+  * "Actualizado README.md con información de la actividad"
+  * "Completado README.md con información de la actividad"
+  * "Completado comandos.txt con los comandos de Git utilizados"
+- Se verificó el estado con: git status
+
+## 5. Publicación en GitHub (Push)
+- Se subieron los cambios al repositorio remoto con:
+  git push origin main
+- El push se realizó después de cada commit para mantener el repositorio actualizado
+- Se verificó que los archivos se subieron correctamente
+
+## 6. Integración en main
+- Como se trabajó directamente en la rama main, no fue necesario realizar fusiones
+- Los commits realizados en local se integraron automáticamente en main mediante el push
+- El repositorio remoto contiene ahora toda la estructura y archivos completados
+- Se puede verificar el historial con: git log --oneline
