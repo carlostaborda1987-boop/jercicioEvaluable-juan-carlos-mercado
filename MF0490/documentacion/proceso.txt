@@ -20,7 +20,7 @@
 - Para crear los archivos se usó: touch nombre_archivo
 - Para editar el contenido se usó el editor nano: nano nombre_archivo
 - Se añadió contenido al README.md con echo y también con nano
-
+Comprobación del resultado final.
 ## 4. Guardado de cambios (Commits)
 - Se prepararon los cambios con: git add .
 - Se crearon commits con mensajes descriptivos:
