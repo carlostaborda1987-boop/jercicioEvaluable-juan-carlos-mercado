@@ -1,0 +1,31 @@
+# COMANDOS DE GIT UTILIZADOS EN LA PRÁCTICA
+
+# OBTENER EL REPOSITORIO
+git clone https://github.com/carlostaborda1987-boop/jercicioEvaluable-juan-carlos-mercado.git
+
+# CONSULTAR ESTADO
+git status
+
+# TRABAJAR CON RAMAS
+# (No se crearon ramas nuevas, se trabajó en la rama principal 'main')
+git branch  # Para ver las ramas existentes
+
+# PREPARAR CAMBIOS
+git add .
+git add README.md
+
+# CREAR COMMITS
+git commit -m "Añadida estructura de carpetas y archivos"
+git commit -m "Añadida estructura completa con documentación"
+git commit -m "Actualizado README.md con información de la actividad"
+git commit -m "Completado README.md con información de la actividad"
+
+# PUBLICAR CAMBIOS
+git push origin main
+
+# ACTUALIZAR RAMAS
+git pull  # Para traer cambios del repositorio remoto (aunque no se usó en esta práctica)
+
+# REALIZAR FUSIÓN
+# (No se realizaron fusiones porque no se crearon ramas adicionales)
+
